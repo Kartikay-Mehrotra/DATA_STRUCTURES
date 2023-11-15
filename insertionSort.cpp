@@ -5,6 +5,7 @@ using namespace std;
 
 void insertionSort(vector<int>& nums)
 {
+   int size=nums.size();
    for (int step = 1; step < size; step++) {
     int key = array[step];
     int j = step - 1;
